@@ -11,9 +11,9 @@ from email.mime.image import MIMEImage
 pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract.exe'
 
 # Email configuration - replace with your details
-email_sender = 'codewithtamil13@gmail.com'
-email_receiver = 'sanjaysmehere@gmail.com'
-email_password = 'hrhv etus dskm uedb'
+email_sender = 'sender@gmail.com'
+email_receiver = 'receiver@gmail.com'
+email_password = 'email_app_password'
 
 def preprocess(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
